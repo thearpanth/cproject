@@ -2,18 +2,12 @@
 using namespace std;
 
 int main() {
-
-//palindrome number using for loop
- int a=0;
- int b=1;
- int c=0;
- int i=1;
- while(i<10) {
-    c=a+b;
-    cout << c << "\n";
-    a=b;
-    b=c;
-    i++;
- }
-
+//nested loop
+for(int i=5;i>=1;i--) {
+  for(int j=1;j<=i;j++) {
+    cout<<" "<<j;
+  }
+ cout<<"\n";
+}
+return 0;
 }
