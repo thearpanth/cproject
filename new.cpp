@@ -1,8 +1,12 @@
+#include<string>
 #include<iostream>
 using namespace std;
 
 int main() {
-    cout<<"hello world"<< endl;
-    cout<<"i am learning c++";
-    return 0;
+    string a[]={"apple","banana","chesternut","dragon fruit","eddo"};
+
+    for(int i=0;i<5;i++) {
+        cout<< a[i] <<"\n";
+    }
+return 0;
 }
