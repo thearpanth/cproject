@@ -13,6 +13,9 @@ int main() {
     for(int i=0; i<5 ; i++){
         cout<<b[i]<<"\n";
     }
+
+    cout<<"the size of string is "<<sizeof(string)<<endl;
+    cout<<"the size of the string is \"b\" "<<sizeof(b)<<endl; //i am using singe slash 
     return 0;
 
     return 0;
