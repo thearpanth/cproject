@@ -7,12 +7,13 @@ int main() {
  int a=0;
  int b=1;
  int c=0;
- for(int i=1;i<10;i++) {
+ int i=1;
+ while(i<10) {
     c=a+b;
     cout << c << "\n";
     a=b;
     b=c;
-    
+    i++;
  }
 
 }
