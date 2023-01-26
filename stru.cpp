@@ -5,11 +5,14 @@ using namespace std;
 int main() {
     //car type
 
-    struct{
+    struct car{
         string brand;
         string model;
         int year;
-    }car1,car2,car3;
+    };
+    car car1;
+    car car2;
+    car car3;
 
     car1.brand="ford";
     car1.model="T";
