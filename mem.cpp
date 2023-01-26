@@ -10,5 +10,8 @@ int main() {
     cout<<food<<"\n";
     cout<<meme<<"\n";
     cout<<ptr<<"\n";
+
+    cout<<*ptr<<"\n"; //deferancing 
+    
 return 0;
 }
