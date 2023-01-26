@@ -3,10 +3,12 @@ using namespace std;
 #include<string>
 
 int main() {
-    string food="pizza";
+    string food="arpan";
     string &meme=food;
+    string *ptr = &food;
 
     cout<<food<<"\n";
-    cout<<meme;
-    return 0;
+    cout<<meme<<"\n";
+    cout<<ptr<<"\n";
+return 0;
 }
