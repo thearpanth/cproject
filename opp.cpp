@@ -1,20 +1,23 @@
 #include<iostream>
-namespace using std;
+using namespace std;
 #include<string>
 
-class myclass {
+class car {
     public:
-    int mynum;
-    string mystring;
+    string brand, model;
+    int year;
+    car(string x, string y, int z) {
+        brand = x;
+        model = y;
+        year = z;
+    }
 };
 
 int main() {
-    myclass myobj;
+    car carobj1("BMW","x5",1999);
+    car carobj2("ford","mustang",1968);
 
-    myobj.mynum = 15;
-    myobj.mystring = "some txt";
-
-    cout << myobj.mynum << "\n";
-    cout << myobj.mystring << "\n";
-    return 0;
+    cout << carobj1.brand << " " << carobj1.model << " " << carobj1.year <<"\n";
+    cout << carobj2.brand << " " << carobj2.model << " " << carobj2.year << "\n";
+return 0;
 }
