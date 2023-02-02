@@ -1,24 +1,23 @@
+//inheritance
 #include<iostream>
 using namespace std;
 #include<string>
-
-class emp {
-    private:
-    int salary;
-
+class veh {
     public:
-    void setsalary(int s) {
-        salary = s;
-    }
-
-    int getsalary() {
-        return salary;
+    string brand = "volvo";
+    void honk() {
+        cout << " ti ti \n";
     }
 };
 
+class car: public veh {
+    public: 
+    string model = "mustang";
+};
+
 int main() {
-    emp e;
-    e.setsalary(60);
-    cout << e.getsalary() << "\n"; 
+    car mycar;
+    mycar.honk();
+    cout << mycar.brand + " " + mycar.model;
     return 0;
 }
