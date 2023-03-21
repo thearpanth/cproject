@@ -1,1 +1,38 @@
-hi mister how do you do
+Create a class called "Person" with properties such as name, age, and occupation. Create an object of the "Person" class and set its properties.
+Create a class called "Car" with properties such as make, model, and year. Create an object of the "Car" class and set its properties.
+Create a class called "Rectangle" with properties such as width and height. Create a method in the "Rectangle" class that calculates the area of the rectangle.
+Create a class called "Circle" with properties such as radius. Create a method in the "Circle" class that calculates the area of the circle.
+Create a class called "Employee" with properties such as name, salary, and department. Create a method in the "Employee" class that calculates the yearly salary.
+Create a class called "BankAccount" with properties such as balance and account number. Create methods in the "BankAccount" class to deposit and withdraw money.
+Create a class called "Fraction" with properties such as numerator and denominator. Create a method in the "Fraction" class that adds two fractions together.
+Create a class called "Vector" with properties such as magnitude and direction. Create a method in the "Vector" class that calculates the dot product of two vectors.
+Create a class called "Book" with properties such as title, author, and ISBN. Create methods in the "Book" class to get and set the properties.
+Create a class called "Student" with properties such as name and GPA. Create a method in the "Student" class that calculates the letter grade based on the GPA.
+Create a class called "Time" with properties such as hour and minute. Create a method in the "Time" class that adds a certain number of minutes to the time.
+Create a class called "Shape" with methods such as "draw" and "erase". Create subclasses of the "Shape" class such as "Circle" and "Rectangle".
+Create a class called "Bank" with properties such as name and location. Create methods in the "Bank" class to add and remove accounts.
+Create a class called "Animal" with properties such as name and species. Create a subclass of the "Animal" class called "Dog" with additional properties such as breed and age.
+Create a class called "Game" with methods such as "play" and "pause". Create subclasses of the "Game" class such as "Chess" and "Checkers".
+Create a class called "BankingApp" that uses the "BankAccount" class to allow users to create and manage bank accounts. Include methods to create a new account, view account balances, and transfer money between accounts.
+Create a class called "FractionCalculator" that uses the "Fraction" class to perform basic arithmetic operations on fractions, such as addition, subtraction, multiplication, and division.
+Create a class called "VectorCalculator" that uses the "Vector" class to perform basic vector operations, such as addition, subtraction, dot product, and cross product.
+Create a class called "Library" that uses the "Book" class to manage a collection of books. Include methods to add new books, remove books, and search for books by title or author.
+Create a class called "Grades" that uses the "Student" class to manage a list of students and their grades. Include methods to add new students, remove students, and calculate class statistics such as the average GPA and the highest and lowest grades.
+Create a class called "Clock" that uses the "Time" class to display and manage the current time. Include methods to set the time, display the time in different formats, and set alarms.
+Create a class called "ShapeDrawer" that uses the "Shape" class and its subclasses to draw shapes on a canvas. Include methods to select different shapes, change their properties such as color and size, and save and load drawings.
+Create a class called "Zoo" that uses the "Animal" class and its subclasses to manage a collection of animals. Include methods to add new animals, remove animals, and display information about the animals such as their names, species, and ages.
+Create a class called "GameLibrary" that uses the "Game" class and its subclasses to manage a collection of games. Include methods to add new games, remove games, and search for games by title or genre.
+Create a class called "Movie" with properties such as title, director, and rating. Create methods in the "Movie" class to get and set the properties. Create a subclass of the "Movie" class called "DVD" with additional properties such as length and special features.
+Create a class called "MusicPlayer" that uses the "Song" class to manage a playlist of songs. Include methods to add new songs, remove songs, play and pause songs, and shuffle the playlist.
+Create a class called "BankingSystem" that manages multiple BankAccount objects. It should have methods to create a new account, close an existing account, deposit and withdraw money from an account, and calculate the total balance of all accounts.
+Create a class called "SmartHouse" that manages multiple devices such as lights, thermostat, security system, etc. It should have methods to turn on/off devices, set temperature, and activate/deactivate security system.
+Create a class called "StockMarket" that simulates the stock market. It should have methods to add and remove companies, add and remove stocks for a company, and calculate the total value of a company based on its stock prices.
+Create a class called "TravelAgency" that manages travel bookings for multiple customers. It should have methods to book flights, hotels, and rental cars, and calculate the total cost of a trip.
+Create a class called "SocialNetwork" that manages multiple user profiles and their connections. It should have methods to create a new profile, add and remove friends, post and view messages, and recommend friends based on common interests.
+Create a class called "MedicalClinic" that manages patient records and appointments. It should have methods to create a new patient record, schedule and cancel appointments, and track medical history and prescriptions.
+Create a class called "OnlineStore" that manages online shopping. It should have methods to add and remove products, place orders, and calculate total revenue and profit.
+Create a class called "DigitalLibrary" that manages digital books and audiobooks. It should have methods to add and remove books, search for books by author or title, and check out and return books.
+Create a class called "MovieTheater" that manages movie showtimes and ticket sales. It should have methods to add and remove movies, schedule showtimes, sell tickets, and calculate total revenue.
+Create a class called "RoboticsFactory" that manages the production of robots. It should have methods to add and remove robot components, assemble robots, and perform quality control checks.
+
+
