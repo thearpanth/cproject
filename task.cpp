@@ -1,28 +1,24 @@
-
-//Assign and print the roll number, phone number and address of two students having names "Sam" and "John" respectively 
-//by creating two objects of the class 'Student'.
+//Create a class called "Person" with properties such as name, age, and occupation.
 
 #include<iostream>
 #include<string>
 using namespace std;
 
-class student{
+class Person{
     public:
-    int number;
-    int roll_no;   
+    string name;
+    int age;
+    string occ;
 };
 
-int main() {
-    student john,sam;
+int main(){
+    Person a1;
+    a1.name = "ram";
+    a1.age = 18;
+    a1.occ = "barber";
 
-    john.number = 9800;
-    sam.number = 9700;
-    john.roll_no = 1;
-    sam.roll_no = 2;
-
-    cout <<"roll"<<"   "<<"num"<<endl;
-    cout <<john.roll_no<<"      "<<john.number<<endl;
-    cout <<sam.roll_no <<"      "<<sam.number<<endl;
-
-    return 0;    
+    cout << a1.name << endl;
+    cout << a1.age << endl;
+    cout << a1.occ << endl;
+    return 0;
 }
