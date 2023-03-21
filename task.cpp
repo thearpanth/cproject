@@ -1,24 +1,22 @@
-//Create a class called "Person" with properties such as name, age, and occupation.
+//Create a class called "Car" with properties such as make, model, and year.
 
 #include<iostream>
 #include<string>
 using namespace std;
 
-class Person{
-    public:
-    string name;
-    int age;
-    string occ;
+class car{
+  public:
+  string model;
+  int year; 
 };
 
 int main(){
-    Person a1;
-    a1.name = "ram";
-    a1.age = 18;
-    a1.occ = "barber";
+    car tesla;
 
-    cout << a1.name << endl;
-    cout << a1.age << endl;
-    cout << a1.occ << endl;
+    tesla.model = "x";
+    tesla.year = 2012;
+
+    cout << tesla.model << endl;
+    cout << tesla.year << endl;
     return 0;
 }
