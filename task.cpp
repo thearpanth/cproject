@@ -1,22 +1,24 @@
-//Create a class called "Car" with properties such as make, model, and year.
+//Create a method in the "Circle" class that calculates the area of the circle.
 
 #include<iostream>
-#include<string>
+#include<cmath>
 using namespace std;
 
-class car{
-  public:
-  string model;
-  int year; 
+class circle{
+    public:
+    float radius;
+
+    float cal(){
+        return M_PI * pow(radius,2);
+    }
 };
 
 int main(){
-    car tesla;
+    circle circle1;
+    cout << "enter the area of the circle";
+    cin >> circle1.radius;
 
-    tesla.model = "x";
-    tesla.year = 2012;
-
-    cout << tesla.model << endl;
-    cout << tesla.year << endl;
+    float area = circle1.cal();
+    cout << area;
     return 0;
 }
