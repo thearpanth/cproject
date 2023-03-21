@@ -1,24 +1,30 @@
-//Create a method in the "Circle" class that calculates the area of the circle.
+//Create a class called "Employee" with properties such as name, salary, and department. Create a method in the "Employee" class that calculates the yearly salary.
 
 #include<iostream>
+#include<string>
 #include<cmath>
 using namespace std;
 
-class circle{
+class employ{
     public:
-    float radius;
-
-    float cal(){
-        return M_PI * pow(radius,2);
+    string name;
+    string department;
+    int salary;
+    
+    int ann(){
+        return pow(salary,12);
     }
 };
 
 int main(){
-    circle circle1;
-    cout << "enter the area of the circle";
-    cin >> circle1.radius;
+    employ employ1;
+    employ1.name = "raman";
+    employ1.department = "enginnering";
+    employ1.salary = 120000;
 
-    float area = circle1.cal();
-    cout << area;
+    cout << "employ name = " << employ1.name <<endl; 
+    cout << "employ department = " << employ1.department << endl;
+    cout << "employ salary = " << employ1.salary << endl;
+    cout << "employ annual salary = " << employ1.ann() << endl;
     return 0;
 }
