@@ -1,30 +1,59 @@
-//Create a class called "Employee" with properties such as name, salary, and department. Create a method in the "Employee" class that calculates the yearly salary.
+//Create a class called "BankAccount" with properties such as balance and account number. Create methods in the "BankAccount" class to deposit and withdraw money.
 
 #include<iostream>
 #include<string>
-#include<cmath>
 using namespace std;
 
-class employ{
+class BankAccount{
     public:
-    string name;
-    string department;
-    int salary;
-    
-    int ann(){
-        return pow(salary,12);
+    int balance;
+    string id;
+    BankAccount(string a,int b){
+        balance = b;
+        id = a;
     }
+
+    int deposit(int dep){
+        balance += dep;
+        return balance;
+    }
+
+    int withdraw(int with){
+        if(balance>=with){
+            balance-=with;
+        }
+        else{
+            cout << "not sufficaint amount of money" << endl;
+        }
+        return balance;
+    }
+    
+
 };
 
 int main(){
-    employ employ1;
-    employ1.name = "raman";
-    employ1.department = "enginnering";
-    employ1.salary = 120000;
 
-    cout << "employ name = " << employ1.name <<endl; 
-    cout << "employ department = " << employ1.department << endl;
-    cout << "employ salary = " << employ1.salary << endl;
-    cout << "employ annual salary = " << employ1.ann() << endl;
-    return 0;
+    BankAccount account1("A1",1000);
+    char opt;
+    int dep, with;
+    cout << "enter what you wan do" ;
+    cin >> opt;
+
+    if(opt=='a'){
+        cout << "the balance account is " << account1.balance << endl; 
+    } 
+    else if(opt=='b'){
+        cout << "enter the amount to enter " ;
+        cin >> dep;
+        account1.deposit(dep);
+    }
+    else if(opt=='c'){
+        cout << "enter the withdrawn ammount" ;
+        cin >> with;
+        account1.withdraw(with);
+    }
+    else{
+        cout << "invaid";
+    }
+
 }
