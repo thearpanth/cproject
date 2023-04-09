@@ -22,6 +22,6 @@ int main(){
     cout << "enter the angle between them "; 
     cin >> ve.o;
 
-    cout << "the dot product is " << ve.c() << endl;
+    cout << "the dot product = " << ve.c() << endl;
     return 0;
 }
